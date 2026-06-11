@@ -85,7 +85,7 @@
                                     {{ $product->category->getTranslation('name') }}
                                 @endif
                             </td>
-                            <td>{{ $product->unit_price }}</td>
+                            <td>{{ single_price($product->unit_price) }}</td>
                             <td><label class="aiz-switch aiz-switch-success mb-0">
                                 <input onchange="update_published(this)" value="{{ $product->id }}" type="checkbox" <?php if($product->published == 1) echo "checked";?> >
                                 <span class="slider round"></span></label>

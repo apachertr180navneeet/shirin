@@ -71,7 +71,7 @@
                                 </td>
                                 <!-- Discount Price  -->
                                 <td class="cart__table--body__list">
-                                    <span class="cart__price">₹{{ $discount_amount * $cartItem['quantity'] }}</span>
+                                    <span class="cart__price">{{ single_price($discount_amount * $cartItem['quantity']) }}</span>
                                 </td>
                                 <!-- Product Tax  -->
                                 <td class="cart__table--body__list">

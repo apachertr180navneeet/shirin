@@ -50,7 +50,7 @@
                         <td>
                             <img src="{{ uploaded_asset($product->thumbnail_img)}}" alt="Image" class="w-50px">
                         </td>
-                        <td>{{ number_format($product->unit_price,2) }}</td>
+                        <td>{{ single_price($product->unit_price) }}</td>
                         <td>
                             <label class="aiz-switch aiz-switch-success mb-0">
                                 <input onchange="update_todays_deal(this)" value="{{ $product->id }}" type="checkbox" <?php if($product->todays_deal == 1) echo "checked";?> >

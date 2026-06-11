@@ -220,6 +220,7 @@
                                 <li class="offcanvas__sub_menu_li">
                                     <a href="{{ route('products.category', $category->slug) }}" class="offcanvas__sub_menu_item">{{ $category->getTranslation('name') }}</a>
                                     @if(count($children) > 0)
+                                    <button class="offcanvas__sub_menu_toggle"></button>
                                     <ul class="offcanvas__sub_menu">
                                         @foreach($children as $child)
                                         <li class="offcanvas__sub_menu_li"><a href="{{ route('products.category', $child->slug) }}" class="offcanvas__sub_menu_item">{{ $child->getTranslation('name') }}</a></li>

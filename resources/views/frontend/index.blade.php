@@ -1514,7 +1514,7 @@ document.addEventListener("DOMContentLoaded", function () {
     @endif
     <!-- End testimonial section -->
 
-    <!-- Start meet the founder section -->
+    <!-- Start brand story section -->
     <section class="feature__section section--padding" style="background: #faf8f5;">
         <div class="container" style="max-width: 960px;">
             <div class="section__heading text-center mb-40">
@@ -1536,7 +1536,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
     </section>
-    <!-- End meet the founder section -->
+    <!-- End brand story section -->
 
     <!-- Start why trust us section -->
     <section class="feature__section section--padding" style="padding:60px 0; background: #fff;">
