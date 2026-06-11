@@ -62,6 +62,7 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|string|max:255',
+            'phone' => 'nullable|string|max:20',
             'password' => 'required|string|min:6|confirmed',
         ]);
     }
@@ -75,11 +76,15 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         if (filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
-            $user = User::create([
+            $userData = [
                 'name' => $data['name'],
                 'email' => $data['email'],
                 'password' => Hash::make($data['password']),
-            ]);
+            ];
+            if (isset($data['phone']) && $data['phone'] != '') {
+                $userData['phone'] = $data['phone'];
+            }
+            $user = User::create($userData);
         }
         else {
             if (addon_is_activated('otp_system')){
@@ -125,6 +130,10 @@ class RegisterController extends Controller
                 flash(translate('Email or Phone already exists.'));
                 return back();
             }
+            if($request->phone != null && User::where('phone', $request->phone)->first() != null){
+                flash(translate('Phone already exists.'));
+                return back();
+            }
         }
         
         elseif (User::where('phone', '+'.$request->country_code.$request->phone)->first() != null) {
@@ -139,7 +148,8 @@ class RegisterController extends Controller
         $this->guard()->login($user);
 
         if($user->email != null){
-            if(BusinessSetting::where('type', 'email_verification')->first()->value != 1){
+            $email_verification = BusinessSetting::where('type', 'email_verification')->first();
+            if($email_verification != null && $email_verification->value != 1){
                 $user->email_verified_at = date('Y-m-d H:m:s');
                 $user->save();
                 flash(translate('Registration successful.'))->success();

@@ -159,8 +159,29 @@
                                     <span class="visually-hidden">Wishlist</span> 
                                 </a>
                             </li>
+                            @auth
                             <li class="header__menu--items header__account--items d-none d-lg-block">
                                 <a class="header__account--btn" href="{{route('dashboard')}}">
+                                    <span class="header__account--btn__icon">
+                                        @if (Auth::user()->avatar_original != null)
+                                        <img src="{{ uploaded_asset(Auth::user()->avatar_original) }}" style="width:22px;height:22px;border-radius:50%;object-fit:cover;" onerror="this.onerror=null;this.src='{{ static_asset('public/assets/img/avatar-place.png') }}';">
+                                        @else
+                                        <img src="{{ static_asset('public/assets/img/avatar-place.png') }}" style="width:22px;height:22px;border-radius:50%;object-fit:cover;">
+                                        @endif
+                                    </span>
+                                    <ul class="header__sub--menu">
+                                        <li class="header__sub--menu__items"><a href="{{route('dashboard')}}" class="header__sub--menu__link">Dashboard</a></li>
+                                        @if(isCustomer())
+                                        <li class="header__sub--menu__items"><a href="{{ route('purchase_history.index') }}" class="header__sub--menu__link">Purchase History</a></li>
+                                        @endif
+                                        <li class="header__sub--menu__items"><a href="{{ route('logout') }}" class="header__sub--menu__link">Logout</a></li>
+                                    </ul>
+                                    <span class="visually-hidden">My Account</span>
+                                </a>
+                            </li>
+                            @else
+                            <li class="header__menu--items header__account--items d-none d-lg-block">
+                                <a class="header__account--btn" href="javascript:void(0)">
                                     <span class="header__account--btn__icon">
                                         <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M16 16V14.3333C16 13.4493 15.6049 12.6014 14.9016 11.9763C14.1984 11.3512 13.2446 11 12.25 11H4.75C3.75544 11 2.80161 11.3512 2.09835 11.9763C1.39509 12.6014 1 13.4493 1 14.3333V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
@@ -171,9 +192,10 @@
                                         <li class="header__sub--menu__items"><a href="{{route('new.login')}}" class="header__sub--menu__link">Sign In</a></li>
                                         <li class="header__sub--menu__items"><a href="{{route('register')}}" class="header__sub--menu__link">Register</a></li>
                                     </ul>
-                                    <span class="visually-hidden">My Account</span> 
+                                    <span class="visually-hidden">My Account</span>
                                 </a>
                             </li>
+                            @endauth
                             <li class="header__account--items header__minicart--items">
                                 <a class="header__account--btn minicart__open--btn" href="{{url('cart')}}">
                                     <span class="header__account--btn__icon">
