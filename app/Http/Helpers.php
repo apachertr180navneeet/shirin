@@ -182,14 +182,18 @@ if (!function_exists('currency_symbol')) {
 if (!function_exists('format_price')) {
     function format_price($price, $isMinimize = false)
     {
-        $decimals = (int) get_setting('no_of_decimals');
+        $decimals = (int) (get_setting('no_of_decimals') ?? 2);
 
-        if (get_setting('decimal_separator') == 1) {
-            $fomated_price = number_format($price, $decimals);
-        } else {
-            $fomated_price = number_format($price, $decimals, ',', '.');
+        // Round to remove unnecessary decimal zeros
+        $price = round($price, $decimals);
+
+        // Indian format: comma as thousands separator, dot as decimal
+        $fomated_price = number_format($price, $decimals, '.', ',');
+
+        // Remove trailing decimal zeros and decimal point if all zeros
+        if (strpos($fomated_price, '.') !== false) {
+            $fomated_price = rtrim(rtrim($fomated_price, '0'), '.');
         }
-
 
         // Minimize the price 
         if ($isMinimize) {
@@ -205,7 +209,7 @@ if (!function_exists('format_price')) {
             }
         }
 
-        $symbol_format = (int) get_setting('symbol_format');
+        $symbol_format = (int) (get_setting('symbol_format') ?? 1);
 
         if ($symbol_format == 1) {
             return currency_symbol() . $fomated_price;
