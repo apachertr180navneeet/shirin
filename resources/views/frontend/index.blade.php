@@ -1516,21 +1516,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <!-- Start meet the founder section -->
     <section class="feature__section section--padding" style="background: #faf8f5;">
-        <div class="container">
+        <div class="container" style="max-width: 960px;">
             <div class="section__heading text-center mb-40">
-                <h2 class="section__heading--maintitle">Brand Story</h2>
+                <h2 class="section__heading--maintitle" style="font-size: 3.2rem; font-weight: 700; color: #061738; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.5rem;">Brand Story</h2>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12 mb-4 mb-lg-0 text-center">
-                    <h3>SHIRIN: A Legacy of Craftsmanship, A Future of Elegance</h3>
-                    <p>
+                    <h3 style="font-size: 2rem; font-weight: 600; color: #b8892e; line-height: 1.4; margin-bottom: 2.5rem; letter-spacing: 0.5px;">SHIRIN: A Legacy of Craftsmanship, A Future of Elegance</h3>
+                    <p style="font-size: 1.6rem; font-weight: 400; color: #555; line-height: 1.8; letter-spacing: 0.3px; max-width: 820px; margin: 0 auto 1.8rem;">
                         SHIRIN was born from a rich family heritage, where the art of making exquisite costume jewellery has been passed down through generations. Our story is one of timeless craftsmanship, rooted in the skills and traditions of our fore grandparents, who spent decades perfecting their craft.
                     </p>
-                    <p>
+                    <p style="font-size: 1.6rem; font-weight: 400; color: #555; line-height: 1.8; letter-spacing: 0.3px; max-width: 820px; margin: 0 auto 1.8rem;">
                         Each piece is crafted with the utmost attention to detail, using the highest quality materials to replicate the look and feel of fine jewellery. We are committed to delivering unmatched quality—designs that are not only beautiful but also affordable, giving our customers a taste of luxury without compromise.
                     </p>
-                    <p>
-                        At SHIRIN, we carry forward a tradition of artistry, but we’re also forging new paths—creating jewellery that feels timeless yet fresh, bringing the past into the present, and continuing our family's dedication to beauty, quality, and craftsmanship.
+                    <p style="font-size: 1.6rem; font-weight: 400; color: #555; line-height: 1.8; letter-spacing: 0.3px; max-width: 820px; margin: 0 auto 0;">
+                        At SHIRIN, we carry forward a tradition of artistry, but we're also forging new paths—creating jewellery that feels timeless yet fresh, bringing the past into the present, and continuing our family's dedication to beauty, quality, and craftsmanship.
                     </p>
                 </div>
             </div>

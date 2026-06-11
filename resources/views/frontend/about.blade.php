@@ -20,35 +20,29 @@
         </div>
         <!-- End breadcrumb section -->
 
-       <!-- Start about section -->
-       <section class="about__Section section--padding">
-            <div class="container">
+        <!-- Start brand story section -->
+        <section class="feature__section section--padding" style="background: #faf8f5;">
+            <div class="container" style="max-width: 960px;">
+                <div class="section__heading text-center mb-40">
+                    <h2 class="section__heading--maintitle" style="font-size: 3.2rem; font-weight: 700; color: #061738; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.5rem;">Brand Story</h2>
+                </div>
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="about__thumbnail padding__left position-relative">
-                            <img src="{{static_asset('public/assets/webtheme/user/assets/img/banner/aboutus.jpg')}}" alt="img">
-                            <div class="about__experience--text text-center">
-                                <span class="about__experience--years"><span class="about__experience--years__inner" style="font-size:25px">12
-
-                                </span>+</span>
-                                <span class="about__experience--title">YEARS
-                                    EXPERIENCE</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="about__content padding__left">
-                            <h3 class="about__content--subtitle">About Us</h3>
-                            <h2 class="about__content--title">AL-NOMAN FRAGRANCE</h2>
-                            <p class="about__content--desc">Al Noman Since 2012 , your premier destination for quality goods that combine tradition and modernity. Our journey began with a passion for bringing the finest products to our customers, while preserving the essence of heritage and craftsmanship. Al Noman was founded with a vision to curate a collection of products that reflect the beauty of tradition and the innovation of the present. Our story started in [Year of Establishment], when we embarked on a mission to bridge the gap between the past and the future by offering a carefully selected range of items.
-Al Noman is more than a retail destination; it's a place where you can discover products that reflect your style, taste, and values. Visit our store and experience the joy of shopping in a welcoming and friendly environment. At Al Noman , we are dedicated to enhancing your shopping experience and helping you find the perfect products for your lifestyle</p>
-                           <!-- <a class="about__conten--btn primary__btn" href="about.html">VIEW MORE</a>-->
-                        </div>
+                    <div class="col-lg-12 col-md-12 mb-4 mb-lg-0 text-center">
+                        <h3 style="font-size: 2rem; font-weight: 600; color: #b8892e; line-height: 1.4; margin-bottom: 2.5rem; letter-spacing: 0.5px;">SHIRIN: A Legacy of Craftsmanship, A Future of Elegance</h3>
+                        <p style="font-size: 1.6rem; font-weight: 400; color: #555; line-height: 1.8; letter-spacing: 0.3px; max-width: 820px; margin: 0 auto 1.8rem;">
+                            SHIRIN was born from a rich family heritage, where the art of making exquisite costume jewellery has been passed down through generations. Our story is one of timeless craftsmanship, rooted in the skills and traditions of our fore grandparents, who spent decades perfecting their craft.
+                        </p>
+                        <p style="font-size: 1.6rem; font-weight: 400; color: #555; line-height: 1.8; letter-spacing: 0.3px; max-width: 820px; margin: 0 auto 1.8rem;">
+                            Each piece is crafted with the utmost attention to detail, using the highest quality materials to replicate the look and feel of fine jewellery. We are committed to delivering unmatched quality—designs that are not only beautiful but also affordable, giving our customers a taste of luxury without compromise.
+                        </p>
+                        <p style="font-size: 1.6rem; font-weight: 400; color: #555; line-height: 1.8; letter-spacing: 0.3px; max-width: 820px; margin: 0 auto 0;">
+                            At SHIRIN, we carry forward a tradition of artistry, but we're also forging new paths—creating jewellery that feels timeless yet fresh, bringing the past into the present, and continuing our family's dedication to beauty, quality, and craftsmanship.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End about section -->
+        <!-- End brand story section -->
         
         <!-- Start counterup banner section -->
         <div class="counterup__banner--section counterup__banner__bg2" id="funfactId">
