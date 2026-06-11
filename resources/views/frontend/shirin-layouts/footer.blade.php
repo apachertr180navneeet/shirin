@@ -363,8 +363,8 @@ window.addEventListener("load", function () {
                             <form action="#">
                                 <h2 class="product__details--info__title mb-15">Z 7-8mm Freshwater Button is </h2>
                                 <div class="product__card--price mb-15">
-                                    <span class="current__price">Rs 239.52</span>
-                                    <span class="old__price"> Rs 362.00</span>
+                                    <span class="current__price">₹ 239.52</span>
+                                    <span class="old__price"> ₹ 362.00</span>
                                 </div>
                                 <ul class="rating product__card--rating mb-20 d-flex">
                                     <li class="rating__list">

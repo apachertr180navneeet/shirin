@@ -100,7 +100,7 @@
                         <li class="language__currency--list">
                             <a class="account__currency--link text-white" href="#">
                                 <img src="assets/img/icon/usd-icon.png" alt="currency">
-                                <span>$ US Dollar</span> 
+                                <span>₹ INR</span> 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="11.797" height="9.05" viewBox="0 0 9.797 6.05">
                                     <path  d="M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                 </svg>
@@ -385,7 +385,7 @@
                         <li class="language__currency--list">
                             <a class="offcanvas__account--currency__menu" href="#">
                                 <img src="assets/img/icon/usd-icon.png" alt="currency">
-                                <span>$ US Dollar</span> 
+                                <span>₹ INR</span> 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="11.797" height="9.05" viewBox="0 0 9.797 6.05">
                                     <path  d="M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
                                 </svg>
@@ -480,8 +480,8 @@
                     <h3 class="minicart__subtitle h4"><a href="product-details.html">Oversize Cotton Dress</a></h3>
                     <span class="color__variant"><b>Color:</b> Beige</span>
                     <div class="minicart__price">
-                        <span class="current__price">$125.00</span>
-                        <span class="old__price">$140.00</span>
+                        <span class="current__price">₹125.00</span>
+                        <span class="old__price">₹140.00</span>
                     </div>
                     <div class="minicart__text--footer d-flex align-items-center">
                         <div class="quantity__box minicart__quantity">
@@ -503,8 +503,8 @@
                     <h3 class="minicart__subtitle h4"><a href="product-details.html">Boxy Denim Jacket</a></h3>
                     <span class="color__variant"><b>Color:</b> Green</span>
                     <div class="minicart__price">
-                        <span class="current__price">$115.00</span>
-                        <span class="old__price">$130.00</span>
+                        <span class="current__price">₹115.00</span>
+                        <span class="old__price">₹130.00</span>
                     </div>
                     <div class="minicart__text--footer d-flex align-items-center">
                         <div class="quantity__box minicart__quantity">
@@ -522,11 +522,11 @@
         <div class="minicart__amount">
             <div class="minicart__amount_list d-flex justify-content-between">
                 <span>Sub Total:</span>
-                <span><b>$240.00</b></span>
+                <span><b>₹240.00</b></span>
             </div>
             <div class="minicart__amount_list d-flex justify-content-between">
                 <span>Total:</span>
-                <span><b>$240.00</b></span>
+                <span><b>₹240.00</b></span>
             </div>
         </div>
         <div class="minicart__conditions text-center">

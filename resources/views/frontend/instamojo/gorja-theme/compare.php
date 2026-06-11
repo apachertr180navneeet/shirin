@@ -71,19 +71,19 @@
                                 <tbody class="compare__table--body">
                                     <tr class="compare__table--items">
                                         <td class="compare__table--items__child">
-                                            <span class="compare__product--price">Rs 89,00</span>
+                                            <span class="compare__product--price">₹ 89,00</span>
                                         </td>
                                         <td class="compare__table--items__child">
-                                            <span class="compare__product--price">Rs 89,00</span>
+                                            <span class="compare__product--price">₹ 89,00</span>
                                         </td>
                                         <td class="compare__table--items__child">
-                                            <span class="compare__product--price">Rs 89,00</span>
+                                            <span class="compare__product--price">₹ 89,00</span>
                                         </td>
                                         <td class="compare__table--items__child">
-                                            <span class="compare__product--price">Rs 89,00</span>
+                                            <span class="compare__product--price">₹ 89,00</span>
                                         </td>
                                         <td class="compare__table--items__child">
-                                            <span class="compare__product--price">Rs 89,00</span>
+                                            <span class="compare__product--price">₹ 89,00</span>
                                         </td>
                                     </tr>
                                     <tr class="compare__table--items">
@@ -170,7 +170,7 @@
                         </div>
                         <div class="feature__content">
                             <h2 class="feature__content--title h3">Free Shipping</h2>
-                            <p class="feature__content--desc">Free shipping over Rs 100</p>
+                            <p class="feature__content--desc">Free shipping over ₹ 100</p>
                         </div>
                     </div>
                     <div class="feature__items d-flex align-items-center">

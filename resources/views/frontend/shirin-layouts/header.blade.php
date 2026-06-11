@@ -108,11 +108,21 @@
                                     <a class="header__menu--link" href="{{route('search')}}">Shop</a>
                                 </li>
 
-                                <li class="header__menu--items">
+                                <li class="header__menu--items" style="position: relative;">
                                     <a class="header__menu--link" href="#">Collections </a>
-                                    <ul class="header__sub--menu">
-                                    @foreach (\App\Models\Category::where('level', 0)->get() as $category)
-                                        <li class="header__sub--menu__items"><a href="{{ route('products.category', $category->slug) }}" class="header__sub--menu__link">{{ $category->getTranslation('name') }}</a></li>
+                                    <ul class="header__mega--menu" style="width: auto; min-width: 500px; left: 50%; transform: translateX(-50%);">
+                                    @foreach (\App\Models\Category::where('level', 0)->orderBy('order_level', 'desc')->get() as $category)
+                                        @php $children = \App\Utility\CategoryUtility::get_immediate_children($category->id); @endphp
+                                        <li class="header__mega--menu__li">
+                                            <a href="{{ route('products.category', $category->slug) }}" class="header__mega--subtitle">{{ $category->getTranslation('name') }}</a>
+                                            @if(count($children) > 0)
+                                            <ul class="header__mega--sub__menu">
+                                                @foreach($children as $child)
+                                                <li><a href="{{ route('products.category', $child->slug) }}" class="header__mega--sub__menu--title">{{ $child->getTranslation('name') }}</a></li>
+                                                @endforeach
+                                            </ul>
+                                            @endif
+                                        </li>
                                     @endforeach  
                                     </ul>
                                 </li>
@@ -205,8 +215,18 @@
                         <li class="offcanvas__menu_li">
                             <a class="offcanvas__menu_item" href="#">Collection</a>
                             <ul class="offcanvas__sub_menu">
-                                @foreach (\App\Models\Category::where('level', 0)->get() as $category)
-                                <li class="offcanvas__sub_menu_li"><a href="{{ route('products.category', $category->slug) }}" class="offcanvas__sub_menu_item">{{ $category->getTranslation('name') }}</a></li>
+                                @foreach (\App\Models\Category::where('level', 0)->orderBy('order_level', 'desc')->get() as $category)
+                                @php $children = \App\Utility\CategoryUtility::get_immediate_children($category->id); @endphp
+                                <li class="offcanvas__sub_menu_li">
+                                    <a href="{{ route('products.category', $category->slug) }}" class="offcanvas__sub_menu_item">{{ $category->getTranslation('name') }}</a>
+                                    @if(count($children) > 0)
+                                    <ul class="offcanvas__sub_menu">
+                                        @foreach($children as $child)
+                                        <li class="offcanvas__sub_menu_li"><a href="{{ route('products.category', $child->slug) }}" class="offcanvas__sub_menu_item">{{ $child->getTranslation('name') }}</a></li>
+                                        @endforeach
+                                    </ul>
+                                    @endif
+                                </li>
                                 @endforeach
                             </ul>
                         </li>
@@ -313,7 +333,8 @@
                 </div>
         
                 <div class="minicart__product">
-                    @foreach (\App\Models\Category::where('level', 0)->get() as $category)
+                    @foreach (\App\Models\Category::where('level', 0)->orderBy('order_level', 'desc')->get() as $category)
+                    @php $children = \App\Utility\CategoryUtility::get_immediate_children($category->id); @endphp
                     <a class="minicart__product--items d-flex" href="{{ route('products.category', $category->slug) }}">
                         <div class="d-flex">
                             <div class="minicart__thumb">
@@ -321,6 +342,13 @@
                             </div>
                             <div class="minicart__text">
                                 <h4 class="minicart__subtitle">{{ $category->getTranslation('name') }}</h4>
+                                @if(count($children) > 0)
+                                <p style="font-size:1.2rem; color:#888; margin:0;">
+                                    @foreach($children as $i => $child)
+                                    {{ $child->getTranslation('name') }}@if(!$loop->last), @endif
+                                    @endforeach
+                                </p>
+                                @endif
                             </div>
                         </div>
                     </a>
@@ -401,6 +429,58 @@
     border: 0;
     max-height: 80vh;
     overflow: auto;
+}
+
+/* Collections mega menu redesign */
+.header__mega--menu {
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+.header__mega--menu__li {
+    padding: 0;
+    width: 25%;
+    border-right: 1px solid #f0f0f0;
+}
+.header__mega--menu__li:last-child {
+    border-right: none;
+}
+.header__mega--subtitle {
+    display: block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #061738;
+    padding: 16px 20px 12px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #b8892e;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+}
+.header__mega--subtitle:hover {
+    color: #b8892e;
+}
+.header__mega--sub__menu {
+    list-style: none;
+    padding: 8px 0;
+    margin: 0;
+}
+.header__mega--sub__menu li {
+    padding: 0;
+}
+.header__mega--sub__menu--title {
+    display: block;
+    font-size: 1.4rem;
+    color: #555;
+    padding: 6px 20px;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+.header__mega--sub__menu--title:hover {
+    color: #b8892e;
+    background: #faf8f5;
+    border-left-color: #b8892e;
+    padding-left: 23px;
 }
 </style>
 

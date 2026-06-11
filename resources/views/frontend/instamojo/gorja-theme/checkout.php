@@ -220,7 +220,7 @@
                                                 </div>
                                             </td>
                                             <td class="cart__table--body__list">
-                                                <span class="cart__price">Rs 65.00</span>
+                                                <span class="cart__price">₹ 65.00</span>
                                             </td>
                                         </tr>
                                         <tr class="cart__table--body__items">
@@ -237,7 +237,7 @@
                                                 </div>
                                             </td>
                                             <td class="cart__table--body__list">
-                                                <span class="cart__price">Rs 82.00</span>
+                                                <span class="cart__price">₹ 82.00</span>
                                             </td>
                                         </tr>
                                         <tr class="cart__table--body__items">
@@ -254,7 +254,7 @@
                                                 </div>
                                             </td>
                                             <td class="cart__table--body__list">
-                                                <span class="cart__price">Rs 78.00</span>
+                                                <span class="cart__price">₹ 78.00</span>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -273,7 +273,7 @@
                                     <tbody class="checkout__total--body">
                                         <tr class="checkout__total--items">
                                             <td class="checkout__total--title text-left">Subtotal </td>
-                                            <td class="checkout__total--amount text-right">$860.00</td>
+                                            <td class="checkout__total--amount text-right">₹860.00</td>
                                         </tr>
                                         <tr class="checkout__total--items">
                                             <td class="checkout__total--title text-left">Shipping</td>
@@ -283,7 +283,7 @@
                                     <tfoot class="checkout__total--footer">
                                         <tr class="checkout__total--footer__items">
                                             <td class="checkout__total--footer__title checkout__total--footer__list text-left">Total </td>
-                                            <td class="checkout__total--footer__amount checkout__total--footer__list text-right">$860.00</td>
+                                            <td class="checkout__total--footer__amount checkout__total--footer__list text-right">₹860.00</td>
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -315,7 +315,7 @@
                         </div>
                         <div class="feature__content">
                             <h2 class="feature__content--title h3">Free Shipping</h2>
-                            <p class="feature__content--desc">Free shipping over Rs 100</p>
+                            <p class="feature__content--desc">Free shipping over ₹ 100</p>
                         </div>
                     </div>
                     <div class="feature__items d-flex align-items-center">

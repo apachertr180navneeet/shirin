@@ -299,8 +299,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Z 7-8mm Freshwater Button is </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 239.52</span>
-                                        <span class="old__price"> Rs 362.00</span>
+                                        <span class="current__price">₹ 239.52</span>
+                                        <span class="old__price"> ₹ 362.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -391,8 +391,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Lorem, ipsum dolor sit ame elit. </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 215.52</span>
-                                        <span class="old__price"> Rs 320.00</span>
+                                        <span class="current__price">₹ 215.52</span>
+                                        <span class="old__price"> ₹ 320.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -485,8 +485,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Cotur, cing elit. Doloque, beatae. </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 100.52</span>
-                                        <span class="old__price"> Rs 300.00</span>
+                                        <span class="current__price">₹ 100.52</span>
+                                        <span class="old__price"> ₹ 300.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -577,8 +577,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Z 7-8mm Freshw Button Pearl </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 239.52</span>
-                                        <span class="old__price"> Rs 362.00</span>
+                                        <span class="current__price">₹ 239.52</span>
+                                        <span class="old__price"> ₹ 362.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -669,8 +669,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Quis nihil modi dn venia vel ac? </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 190.52</span>
-                                        <span class="old__price"> Rs 250.00</span>
+                                        <span class="current__price">₹ 190.52</span>
+                                        <span class="old__price"> ₹ 250.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -762,8 +762,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Unde quaerat minus ipsa excei! </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 179.52</span>
-                                        <span class="old__price"> Rs 190.00</span>
+                                        <span class="current__price">₹ 179.52</span>
+                                        <span class="old__price"> ₹ 190.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -855,8 +855,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Sed impedit autem min ver velit?</a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 220.52</span>
-                                        <span class="old__price"> Rs 330.00</span>
+                                        <span class="current__price">₹ 220.52</span>
+                                        <span class="old__price"> ₹ 330.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -947,8 +947,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                     </ul> -->
                                     <h3 class="product__card--title"><a href="product-details.php">Alias facilis ut natus  beatae. </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 239.52</span>
-                                        <span class="old__price"> Rs 362.00</span>
+                                        <span class="current__price">₹ 239.52</span>
+                                        <span class="old__price"> ₹ 362.00</span>
                                     </div>
                                 </div>
                             </article>
@@ -1052,8 +1052,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 220.52</span>
-                                            <span class="old__price"> Rs 359.00</span>
+                                            <span class="current__price">₹ 220.52</span>
+                                            <span class="old__price"> ₹ 359.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1104,8 +1104,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 210.52</span>
-                                            <span class="old__price"> Rs 330.00</span>
+                                            <span class="current__price">₹ 210.52</span>
+                                            <span class="old__price"> ₹ 330.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1156,8 +1156,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 190.52</span>
-                                            <span class="old__price"> Rs 240.00</span>
+                                            <span class="current__price">₹ 190.52</span>
+                                            <span class="old__price"> ₹ 240.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1208,8 +1208,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 190.52</span>
-                                            <span class="old__price"> Rs 240.00</span>
+                                            <span class="current__price">₹ 190.52</span>
+                                            <span class="old__price"> ₹ 240.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1269,8 +1269,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 180.52</span>
-                                            <span class="old__price"> Rs 220.00</span>
+                                            <span class="current__price">₹ 180.52</span>
+                                            <span class="old__price"> ₹ 220.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1321,8 +1321,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 256.52</span>
-                                            <span class="old__price"> Rs 322.00</span>
+                                            <span class="current__price">₹ 256.52</span>
+                                            <span class="old__price"> ₹ 322.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1373,8 +1373,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 188.52</span>
-                                            <span class="old__price"> Rs 256.00</span>
+                                            <span class="current__price">₹ 188.52</span>
+                                            <span class="old__price"> ₹ 256.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1425,8 +1425,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 190.52</span>
-                                            <span class="old__price"> Rs 240.00</span>
+                                            <span class="current__price">₹ 190.52</span>
+                                            <span class="old__price"> ₹ 240.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1486,8 +1486,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 239.52</span>
-                                            <span class="old__price"> Rs 362.00</span>
+                                            <span class="current__price">₹ 239.52</span>
+                                            <span class="old__price"> ₹ 362.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1538,8 +1538,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 239.52</span>
-                                            <span class="old__price"> Rs 362.00</span>
+                                            <span class="current__price">₹ 239.52</span>
+                                            <span class="old__price"> ₹ 362.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1590,8 +1590,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 239.52</span>
-                                            <span class="old__price"> Rs 362.00</span>
+                                            <span class="current__price">₹ 239.52</span>
+                                            <span class="old__price"> ₹ 362.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1642,8 +1642,8 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                                             </li>
                                         </ul>
                                         <div class="product__card--price">
-                                            <span class="current__price">Rs 190.52</span>
-                                            <span class="old__price"> Rs 240.00</span>
+                                            <span class="current__price">₹ 190.52</span>
+                                            <span class="old__price"> ₹ 240.00</span>
                                         </div>
                                     </div>
                                 </article>
@@ -1920,7 +1920,7 @@ $home = App\Models\HomeModels::where('status',1)->limit(3)->get();
                     </div>
                     <div class="newsletter__content--right">
                         <h2 class="newsletter__content--title text-white">NEWSLETTER SIGN UP!</h2>
-                        <P class="newsletter__content--desc text-white">And receive Rs 20 coupon for first shopping.</P>
+                        <P class="newsletter__content--desc text-white">And receive ₹ 20 coupon for first shopping.</P>
                     </div>
                 </div>
                 <div class="newsletter__subscribe--style">

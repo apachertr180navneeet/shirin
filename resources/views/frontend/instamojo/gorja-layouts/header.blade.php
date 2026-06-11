@@ -6,31 +6,31 @@
             <div class="animation-preloader">
                 <div class="spinner"></div>
                 <div class="txt-loading">
-                    <span data-text-preloader="L" class="letteRs -loading">
+                    <span data-text-preloader="L" class="lette₹ -loading">
                         L
                     </span>
 
-                    <span data-text-preloader="O" class="letteRs -loading">
+                    <span data-text-preloader="O" class="lette₹ -loading">
                         O
                     </span>
 
-                    <span data-text-preloader="A" class="letteRs -loading">
+                    <span data-text-preloader="A" class="lette₹ -loading">
                         A
                     </span>
 
-                    <span data-text-preloader="D" class="letteRs -loading">
+                    <span data-text-preloader="D" class="lette₹ -loading">
                         D
                     </span>
 
-                    <span data-text-preloader="I" class="letteRs -loading">
+                    <span data-text-preloader="I" class="lette₹ -loading">
                         I
                     </span>
 
-                    <span data-text-preloader="N" class="letteRs -loading">
+                    <span data-text-preloader="N" class="lette₹ -loading">
                         N
                     </span>
 
-                    <span data-text-preloader="G" class="letteRs -loading">
+                    <span data-text-preloader="G" class="lette₹ -loading">
                         G
                     </span>
                 </div>
@@ -131,7 +131,7 @@
                                         <li class="header__sub--menu__items"><a href="index-3.html" class="header__sub--menu__link">Home - Jewelry Store</a></li>
                                         <li class="header__sub--menu__items"><a href="index-4.html" class="header__sub--menu__link">Home -  Modern Jewelry</a></li>
                                         <li class="header__sub--menu__items"><a href="index-5.html" class="header__sub--menu__link">Home - Look book</a></li>
-                                        <li class="header__sub--menu__items"><a href="index-6.html" class="header__sub--menu__link">Home - Beauty JeweleRs </a></li>
+                                        <li class="header__sub--menu__items"><a href="index-6.html" class="header__sub--menu__link">Home - Beauty Jewele₹ </a></li>
                                         <li class="header__sub--menu__items"><a href="index-7.html" class="header__sub--menu__link">Home - Parallax</a></li>
                                     </ul> -->
                                 </li>
@@ -341,7 +341,7 @@
                                 <li class="offcanvas__sub_menu_li"><a href="index-3.html" class="offcanvas__sub_menu_item">Home - Jewelry Store</a></li>
                                 <li class="offcanvas__sub_menu_li"><a href="index-4.html" class="offcanvas__sub_menu_item">Home - Modern Jewelry</a></li>
                                 <li class="offcanvas__sub_menu_li"><a href="index-5.html" class="offcanvas__sub_menu_item">Home - Look book</a></li>
-                                <li class="offcanvas__sub_menu_li"><a href="index-6.html" class="offcanvas__sub_menu_item">Home - Beauty JeweleRs </a></li>
+                                <li class="offcanvas__sub_menu_li"><a href="index-6.html" class="offcanvas__sub_menu_item">Home - Beauty Jewele₹ </a></li>
                                 <li class="offcanvas__sub_menu_li"><a href="index-7.html" class="offcanvas__sub_menu_item">Home - Parallax</a></li>
                             </ul>-->
                         </li>
@@ -503,8 +503,8 @@
                         <h4 class="minicart__subtitle"><a href="#">Ring </a></h4>
                         <span class="color__variant"><b>Color:</b> Gold</span>
                         <div class="minicart__price">
-                            <span class="minicart__current--price">Rs 125.00</span>
-                            <span class="minicart__old--price">Rs 140.00</span>
+                            <span class="minicart__current--price">₹ 125.00</span>
+                            <span class="minicart__old--price">₹ 140.00</span>
                         </div>
                         <div class="minicart__text--footer d-flex align-items-center">
                             <div class="quantity__box minicart__quantity">
@@ -527,8 +527,8 @@
                            </a></h4>
                         <span class="color__variant"><b>Color:</b> Silver</span>
                         <div class="minicart__price">
-                            <span class="minicart__current--price">Rs 115.00</span>
-                            <span class="minicart__old--price">Rs 130.00</span>
+                            <span class="minicart__current--price">₹ 115.00</span>
+                            <span class="minicart__old--price">₹ 130.00</span>
                         </div>
                         <div class="minicart__text--footer d-flex align-items-center">
                             <div class="quantity__box minicart__quantity">
@@ -546,11 +546,11 @@
             <div class="minicart__amount">
                 <div class="minicart__amount_list d-flex justify-content-between">
                     <span>Sub Total:</span>
-                    <span><b>Rs 240.00</b></span>
+                    <span><b>₹ 240.00</b></span>
                 </div>
                 <div class="minicart__amount_list d-flex justify-content-between">
                     <span>Total:</span>
-                    <span><b>Rs 240.00</b></span>
+                    <span><b>₹ 240.00</b></span>
                 </div>
             </div>
             <div class="minicart__conditions text-center">

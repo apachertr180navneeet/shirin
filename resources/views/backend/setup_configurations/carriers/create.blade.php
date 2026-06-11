@@ -129,7 +129,7 @@
                                             <td>
                                                 <div class="input-group mb-2">
                                                     <div class="input-group-prepend">
-                                                        <div class="input-group-text">$</div>
+                                                        <div class="input-group-text">₹</div>
                                                     </div>
                                                     <input type="number" class="form-control shipping_cost"
                                                         name="carrier_price[{{ $zone->id }}][]"

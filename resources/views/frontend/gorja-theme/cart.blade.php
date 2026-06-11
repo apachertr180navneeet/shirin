@@ -55,7 +55,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price">Rs 65.00</span>
+                                                    <span class="cart__price">₹ 65.00</span>
                                                 </td>
                                                 <td class="cart__table--body__list">
                                                     <div class="quantity__box">
@@ -67,7 +67,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price end">Rs 130.00</span>
+                                                    <span class="cart__price end">₹ 130.00</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart__table--body__items">
@@ -87,7 +87,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price">Rs 65.00</span>
+                                                    <span class="cart__price">₹ 65.00</span>
                                                 </td>
                                                 <td class="cart__table--body__list">
                                                     <div class="quantity__box">
@@ -99,7 +99,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price end">Rs 130.00</span>
+                                                    <span class="cart__price end">₹ 130.00</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart__table--body__items">
@@ -119,7 +119,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price">Rs 65.00</span>
+                                                    <span class="cart__price">₹ 65.00</span>
                                                 </td>
                                                 <td class="cart__table--body__list">
                                                     <div class="quantity__box">
@@ -131,7 +131,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price end">Rs 130.00</span>
+                                                    <span class="cart__price end">₹ 130.00</span>
                                                 </td>
                                             </tr>
                                             <tr class="cart__table--body__items">
@@ -151,7 +151,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price">Rs 65.00</span>
+                                                    <span class="cart__price">₹ 65.00</span>
                                                 </td>
                                                 <td class="cart__table--body__list">
                                                     <div class="quantity__box">
@@ -163,7 +163,7 @@
                                                     </div>
                                                 </td>
                                                 <td class="cart__table--body__list">
-                                                    <span class="cart__price end">Rs 130.00</span>
+                                                    <span class="cart__price end">₹ 130.00</span>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -196,11 +196,11 @@
                                             <tbody>
                                                 <tr class="cart__summary--total__list">
                                                     <td class="cart__summary--total__title text-left">SUBTOTAL</td>
-                                                    <td class="cart__summary--amount text-right">Rs 860.00</td>
+                                                    <td class="cart__summary--amount text-right">₹ 860.00</td>
                                                 </tr>
                                                 <tr class="cart__summary--total__list">
                                                     <td class="cart__summary--total__title text-left">GRAND TOTAL</td>
-                                                    <td class="cart__summary--amount text-right">Rs 860.00</td>
+                                                    <td class="cart__summary--amount text-right">₹ 860.00</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -314,8 +314,8 @@
                                     </ul>
                                     <h3 class="product__card--title"><a href="product-details.html">Z 7-8mm Freshwater Button is </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 239.52</span>
-                                        <span class="old__price"> Rs 362.00</span>
+                                        <span class="current__price">₹ 239.52</span>
+                                        <span class="old__price"> ₹ 362.00</span>
                                     </div>  
                                 </div>
                             </article>
@@ -404,8 +404,8 @@
                                     </ul>
                                     <h3 class="product__card--title"><a href="product-details.html">Lorem, ipsum dolor sit ame elit. </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 215.52</span>
-                                        <span class="old__price"> Rs 320.00</span>
+                                        <span class="current__price">₹ 215.52</span>
+                                        <span class="old__price"> ₹ 320.00</span>
                                     </div>  
                                 </div>
                             </article>
@@ -495,8 +495,8 @@
                                     </ul>
                                     <h3 class="product__card--title"><a href="product-details.html">Cotur, cing elit. Doloque, beatae. </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 100.52</span>
-                                        <span class="old__price"> Rs 300.00</span>
+                                        <span class="current__price">₹ 100.52</span>
+                                        <span class="old__price"> ₹ 300.00</span>
                                     </div>  
                                 </div>
                             </article>
@@ -585,8 +585,8 @@
                                     </ul>
                                     <h3 class="product__card--title"><a href="product-details.html">Quis nihil modi dn venia vel ac? </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 190.52</span>
-                                        <span class="old__price"> Rs 250.00</span>
+                                        <span class="current__price">₹ 190.52</span>
+                                        <span class="old__price"> ₹ 250.00</span>
                                     </div>  
                                 </div>
                             </article>
@@ -676,8 +676,8 @@
                                     </ul>
                                     <h3 class="product__card--title"><a href="product-details.html">Unde quaerat minus ipsa excei! </a></h3>
                                     <div class="product__card--price">
-                                        <span class="current__price">Rs 179.52</span>
-                                        <span class="old__price"> Rs 190.00</span>
+                                        <span class="current__price">₹ 179.52</span>
+                                        <span class="old__price"> ₹ 190.00</span>
                                     </div>  
                                 </div>
                             </article>
@@ -756,7 +756,7 @@
                         </div>
                         <div class="feature__content">
                             <h2 class="feature__content--title h3">Free Shipping</h2>
-                            <p class="feature__content--desc">Free shipping over Rs 100</p>
+                            <p class="feature__content--desc">Free shipping over ₹ 100</p>
                         </div>
                     </div>
                     <div class="feature__items d-flex align-items-center">

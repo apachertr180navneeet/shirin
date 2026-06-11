@@ -311,7 +311,7 @@
                                         <div class="price__filter--group">
                                             <label class="price__filter--label" for="Filter-Price-GTE2">From</label>
                                             <div class="price__filter--input border-radius-5 d-flex align-items-center">
-                                                <span class="price__filter--currency">Rs </span>
+                                                <span class="price__filter--currency">₹ </span>
                                                 <input class="price__filter--input__field border-0" name="filter.v.price.gte" id="Filter-Price-GTE2" type="number" placeholder="0" min="0" max="250.00">
                                             </div>
                                         </div>
@@ -321,7 +321,7 @@
                                         <div class="price__filter--group">
                                             <label class="price__filter--label" for="Filter-Price-LTE2">To</label>
                                             <div class="price__filter--input border-radius-5 d-flex align-items-center">
-                                                <span class="price__filter--currency">Rs </span>
+                                                <span class="price__filter--currency">₹ </span>
                                                 <input class="price__filter--input__field border-0" name="filter.v.price.lte" id="Filter-Price-LTE2" type="number" min="0" placeholder="250.00" max="250.00"> 
                                             </div>	
                                         </div>
@@ -339,7 +339,7 @@
                                         <div class="small__product--content">
                                             <h3 class="small__product--card__title"><a href="product-details.html">White Cream </a></h3>
                                             <div class="small__product--card__price mb_5">
-                                                <span class="current__price">Rs 239.52</span>
+                                                <span class="current__price">₹ 239.52</span>
                                             </div>
                                             <ul class="rating small__product--rating d-flex">
                                                 <li class="rating__list">
@@ -387,7 +387,7 @@
                                         <div class="small__product--content">
                                             <h3 class="small__product--card__title"><a href="product-details.html">Sneaky lips </a></h3>
                                             <div class="small__product--card__price mb_5">
-                                                <span class="current__price">Rs 180.52</span>
+                                                <span class="current__price">₹ 180.52</span>
                                             </div>
                                             <ul class="rating small__product--rating d-flex">
                                                 <li class="rating__list">
@@ -435,7 +435,7 @@
                                         <div class="small__product--content">
                                             <h3 class="small__product--card__title"><a href="product-details.html">Matte Walnut </a></h3>
                                             <div class="small__product--card__price mb_5">
-                                                <span class="current__price">Rs 220.52</span>
+                                                <span class="current__price">₹ 220.52</span>
                                             </div>
                                             <ul class="rating small__product--rating d-flex">
                                                 <li class="rating__list">
@@ -652,8 +652,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Z 7-8mm Freshwater Button is </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 239.52</span>
-                                                            <span class="old__price"> Rs 362.00</span>
+                                                            <span class="current__price">₹ 239.52</span>
+                                                            <span class="old__price"> ₹ 362.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -742,8 +742,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Lorem, ipsum dolor sit ame elit. </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 215.52</span>
-                                                            <span class="old__price"> Rs 320.00</span>
+                                                            <span class="current__price">₹ 215.52</span>
+                                                            <span class="old__price"> ₹ 320.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -833,8 +833,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Cotur, cing elit. Doloque, beatae. </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 100.52</span>
-                                                            <span class="old__price"> Rs 300.00</span>
+                                                            <span class="current__price">₹ 100.52</span>
+                                                            <span class="old__price"> ₹ 300.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -923,8 +923,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Z 7-8mm Freshw Button Pearl </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 239.52</span>
-                                                            <span class="old__price"> Rs 362.00</span>
+                                                            <span class="current__price">₹ 239.52</span>
+                                                            <span class="old__price"> ₹ 362.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -1013,8 +1013,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Quis nihil modi dn venia vel ac? </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 190.52</span>
-                                                            <span class="old__price"> Rs 250.00</span>
+                                                            <span class="current__price">₹ 190.52</span>
+                                                            <span class="old__price"> ₹ 250.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -1104,8 +1104,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="#product-details.html">Unde quaerat minus ipsa excei! </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 179.52</span>
-                                                            <span class="old__price"> Rs 190.00</span>
+                                                            <span class="current__price">₹ 179.52</span>
+                                                            <span class="old__price"> ₹ 190.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -1195,8 +1195,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Sed impedit autem min ver velit?</a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 220.52</span>
-                                                            <span class="old__price"> Rs 330.00</span>
+                                                            <span class="current__price">₹ 220.52</span>
+                                                            <span class="old__price"> ₹ 330.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -1285,8 +1285,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Alias facilis ut natus  beatae. </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 239.52</span>
-                                                            <span class="old__price"> Rs 362.00</span>
+                                                            <span class="current__price">₹ 239.52</span>
+                                                            <span class="old__price"> ₹ 362.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -1375,8 +1375,8 @@
                                                         </ul> -->
                                                         <h3 class="product__card--title"><a href="product-details.php">Lorem, ipsum dolor sit ame elit. </a></h3>
                                                         <div class="product__card--price">
-                                                            <span class="current__price">Rs 215.52</span>
-                                                            <span class="old__price"> Rs 320.00</span>
+                                                            <span class="current__price">₹ 215.52</span>
+                                                            <span class="old__price"> ₹ 320.00</span>
                                                         </div>  
                                                     </div>
                                                 </article>
@@ -1465,8 +1465,8 @@
                                                             </li>
                                                         </ul>
                                                         <div class="product__list--price">
-                                                            <span class="current__price">Rs 188.52</span>
-                                                            <span class="old__price"> Rs 268.00</span>
+                                                            <span class="current__price">₹ 188.52</span>
+                                                            <span class="old__price"> ₹ 268.00</span>
                                                         </div>
                                                         <p class="product__card--content__desc mb-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas dolore doloribus architecto sequi corporis deleniti officia culpa dolor esse there.</p>
                                                         <a class="product__card--btn primary__btn" href="cart.php">+ Add to cart</a>
@@ -1550,8 +1550,8 @@
                                                             </li>
                                                         </ul>
                                                         <div class="product__list--price">
-                                                            <span class="current__price">Rs 160.52</span>
-                                                            <span class="old__price"> Rs 230.00</span>
+                                                            <span class="current__price">₹ 160.52</span>
+                                                            <span class="old__price"> ₹ 230.00</span>
                                                         </div>
                                                         <p class="product__card--content__desc mb-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas dolore doloribus architecto sequi corporis deleniti officia culpa dolor esse there.</p>
                                                         <a class="product__card--btn primary__btn" href="cart.php">+ Add to cart</a>
@@ -1636,8 +1636,8 @@
                                                             </li>
                                                         </ul>
                                                         <div class="product__list--price">
-                                                            <span class="current__price">Rs 145.52</span>
-                                                            <span class="old__price"> Rs 222.00</span>
+                                                            <span class="current__price">₹ 145.52</span>
+                                                            <span class="old__price"> ₹ 222.00</span>
                                                         </div>
                                                         <p class="product__card--content__desc mb-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas dolore doloribus architecto sequi corporis deleniti officia culpa dolor esse there.</p>
                                                         <a class="product__card--btn primary__btn" href="cart.php">+ Add to cart</a>
@@ -1721,8 +1721,8 @@
                                                             </li>
                                                         </ul>
                                                         <div class="product__list--price">
-                                                            <span class="current__price">Rs 135.52</span>
-                                                            <span class="old__price"> Rs 235.00</span>
+                                                            <span class="current__price">₹ 135.52</span>
+                                                            <span class="old__price"> ₹ 235.00</span>
                                                         </div>
                                                         <p class="product__card--content__desc mb-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas dolore doloribus architecto sequi corporis deleniti officia culpa dolor esse there.</p>
                                                         <a class="product__card--btn primary__btn" href="cart.html">+ Add to cart</a>
@@ -1807,8 +1807,8 @@
                                                             </li>
                                                         </ul>
                                                         <div class="product__list--price">
-                                                            <span class="current__price">Rs 157.52</span>
-                                                            <span class="old__price"> Rs 245.00</span>
+                                                            <span class="current__price">₹ 157.52</span>
+                                                            <span class="old__price"> ₹ 245.00</span>
                                                         </div>
                                                         <p class="product__card--content__desc mb-15">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas dolore doloribus architecto sequi corporis deleniti officia culpa dolor esse there.</p>
                                                         <a class="product__card--btn primary__btn" href="cart.php">+ Add to cart</a>
@@ -1858,7 +1858,7 @@
                         </div>
                         <div class="feature__content">
                             <h2 class="feature__content--title h3">Free Shipping</h2>
-                            <p class="feature__content--desc">Free shipping over Rs 100</p>
+                            <p class="feature__content--desc">Free shipping over ₹ 100</p>
                         </div>
                     </div>
                     <div class="feature__items d-flex align-items-center">

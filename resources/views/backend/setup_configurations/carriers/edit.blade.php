@@ -152,7 +152,7 @@
                                                 <td>
                                                     <div class="input-group mb-2">
                                                         <div class="input-group-prepend">
-                                                        <div class="input-group-text">$</div>
+                                                        <div class="input-group-text">₹</div>
                                                         </div>
                                                         <input type="number" class="form-control shipping_cost" name="carrier_price[{{ $zone->id }}][]" value="{{ $carrier_range_price->price ?? null }}" placeholder="{{ translate('cost') }}" @if(! in_array($zone->id, $selected_zones)) disabled @endif required>
                                                     </div>
@@ -162,7 +162,7 @@
                                                 <td>
                                                     <div class="input-group mb-2">
                                                         <div class="input-group-prepend">
-                                                            <div class="input-group-text">$</div>
+                                                            <div class="input-group-text">₹</div>
                                                         </div>
                                                         <input type="number" class="form-control shipping_cost"
                                                             name="carrier_price[{{ $zone->id }}][]"

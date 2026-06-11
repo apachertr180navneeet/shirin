@@ -53,49 +53,49 @@
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Unfulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 40.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 40.00 INR</td>
                                         </tr>
                                         <tr class="account__table--body__child">
                                             <td class="account__table--body__child--items">#2024</td>
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Fulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 44.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 44.00 INR</td>
                                         </tr>
                                         <tr class="account__table--body__child">
                                             <td class="account__table--body__child--items">#2164</td>
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Unfulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 36.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 36.00 INR</td>
                                         </tr>
                                         <tr class="account__table--body__child">
                                             <td class="account__table--body__child--items">#2345</td>
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Unfulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 87.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 87.00 INR</td>
                                         </tr>
                                         <tr class="account__table--body__child">
                                             <td class="account__table--body__child--items">#1244</td>
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Fulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 66.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 66.00 INR</td>
                                         </tr>
                                         <tr class="account__table--body__child">
                                             <td class="account__table--body__child--items">#3455</td>
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Fulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 55.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 55.00 INR</td>
                                         </tr>
                                         <tr class="account__table--body__child">
                                             <td class="account__table--body__child--items">#4566</td>
                                             <td class="account__table--body__child--items">November 24, 2022</td>
                                             <td class="account__table--body__child--items">Paid</td>
                                             <td class="account__table--body__child--items">Unfulfilled</td>
-                                            <td class="account__table--body__child--items">Rs 87.00 INR</td>
+                                            <td class="account__table--body__child--items">₹ 87.00 INR</td>
                                         </tr>
                                     </tbody>
                                     <tbody class="account__table--body mobile__block">
@@ -118,7 +118,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                         <tr class="account__table--body__child">
@@ -140,7 +140,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                         <tr class="account__table--body__child">
@@ -162,7 +162,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                         <tr class="account__table--body__child">
@@ -184,7 +184,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                         <tr class="account__table--body__child">
@@ -206,7 +206,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                         <tr class="account__table--body__child">
@@ -228,7 +228,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                         <tr class="account__table--body__child">
@@ -250,7 +250,7 @@
                                             </td>
                                             <td class="account__table--body__child--items">
                                                 <strong>Total</strong>
-                                                <span>Rs 40.00 USD</span>
+                                                <span>₹ 40.00 USD</span>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -273,7 +273,7 @@
                         </div>
                         <div class="feature__content">
                             <h2 class="feature__content--title h3">Free Shipping</h2>
-                            <p class="feature__content--desc">Free shipping over Rs 100</p>
+                            <p class="feature__content--desc">Free shipping over ₹ 100</p>
                         </div>
                     </div>
                     <div class="feature__items d-flex align-items-center">

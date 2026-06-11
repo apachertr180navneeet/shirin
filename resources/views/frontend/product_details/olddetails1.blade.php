@@ -3,8 +3,8 @@
 <!--                            <form action="#">-->
 <!--                                <h2 class="product__details--info__title mb-15">{{ $detailedProduct->getTranslation('name') }}</h2>-->
 <!--                                <div class="product__details--info__price mb-12">-->
-<!--                                    <span class="current__price">Rs 58.00</span>-->
-<!--                                    <span class="old__price">Rs 68.00</span>-->
+<!--                                    <span class="current__price">₹ 58.00</span>-->
+<!--                                    <span class="old__price">₹ 68.00</span>-->
 <!--                                </div>-->
 <!--                                 <ul class="rating product__card--rating mb-15 d-flex">-->
 <!--                                    <li class="rating__list">-->

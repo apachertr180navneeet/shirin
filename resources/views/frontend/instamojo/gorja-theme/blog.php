@@ -422,7 +422,7 @@
                         </div>
                         <div class="feature__content">
                             <h2 class="feature__content--title h3">Free Shipping</h2>
-                            <p class="feature__content--desc">Free shipping over $100</p>
+                            <p class="feature__content--desc">Free shipping over ₹100</p>
                         </div>
                     </div>
                     <div class="feature__items d-flex align-items-center">
