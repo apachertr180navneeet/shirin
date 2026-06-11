@@ -182,7 +182,7 @@ if (!function_exists('currency_symbol')) {
 if (!function_exists('format_price')) {
     function format_price($price, $isMinimize = false)
     {
-        $decimals = (int) (get_setting('no_of_decimals') ?? 2);
+        $decimals = (int) get_setting('no_of_decimals');
 
         if (get_setting('decimal_separator') == 1) {
             $fomated_price = number_format($price, $decimals);
@@ -205,7 +205,7 @@ if (!function_exists('format_price')) {
             }
         }
 
-        $symbol_format = (int) (get_setting('symbol_format') ?? 1);
+        $symbol_format = (int) get_setting('symbol_format');
 
         if ($symbol_format == 1) {
             return currency_symbol() . $fomated_price;

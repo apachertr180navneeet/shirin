@@ -233,7 +233,7 @@
         $(".price_range_text").html(billing_type === 'weight_based' 
             ? "{{ translate('Will be applied when the weight is') }}" 
             : "{{ translate('Will be applied when the price is') }}");
-        $(".bill_based_on").html(billing_type === 'weight_based' ? "{{ translate('kg') }}" : "{{ currency_symbol() }}");
+        $(".bill_based_on").html(billing_type === 'weight_based' ? "{{ translate('kg') }}" : "$");
      
     }
 

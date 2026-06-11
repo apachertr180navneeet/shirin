@@ -169,7 +169,7 @@ $payment_status = $order->orderDetails->where('seller_id', Auth::user()->id)->fi
                                             @endif
                                         @endif
                                     </td>
-                                    <td>{{ single_price($orderDetail->price) }}</td>
+                                    <td>{{ $orderDetail->price }}</td>
                                     @if (addon_is_activated('refund_request'))
                                         <td>
                                             @if ($orderDetail->refund_request != null && $orderDetail->refund_request->refund_status == 0)

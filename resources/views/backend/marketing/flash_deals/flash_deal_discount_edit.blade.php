@@ -34,7 +34,7 @@
                   </div>
                 </td>
                 <td>
-                    <span>{{ single_price($product->unit_price) }}</span>
+                    <span>{{ $product->unit_price }}</span>
                 </td>
                 <td>
                     <input type="number" lang="en" name="discount_{{ $id }}" value="{{ $product->discount }}" min="0" step="1" class="form-control" required>
