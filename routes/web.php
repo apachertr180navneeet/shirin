@@ -30,6 +30,7 @@ use App\Http\Controllers\Payment\BkashController;
 use App\Http\Controllers\Payment\NagadController;
 
 use App\Http\Controllers\Payment\PaykuController;
+use App\Http\Controllers\Payment\PayumoneyController;
 use App\Http\Controllers\SupportTicketController;
 use App\Http\Controllers\DigitalProductController;
 use App\Http\Controllers\Payment\IyzicoController;
@@ -467,6 +468,10 @@ Route::get('/authorizenet/cardtype', [AuthorizenetController::class, 'cardType']
 
 //payku
 Route::get('/payku/callback/{id}', [PaykuController::class, 'callback'])->name('payku.result');
+
+//payumoney
+Route::any('/payumoney/success', [PayumoneyController::class, 'success'])->name('payumoney.success');
+Route::any('/payumoney/cancel', [PayumoneyController::class, 'cancel'])->name('payumoney.cancel');
 
 //Blog Section
 Route::controller(BlogController::class)->group(function () {
