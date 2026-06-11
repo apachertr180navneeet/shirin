@@ -22,15 +22,19 @@ class PayumoneyController extends Controller
         $email = $user->email;
         $phone = $user->phone ?? '';
 
-        $merchant_key = env('PAYU_MERCHANT_KEY');
-        $salt = env('PAYU_SALT');
-        $payu_url = env('PAYU_BASE_URL', 'https://test.payu.in/_payment');
+        $merchant_key = config('payu.merchant_key');
+        $salt = config('payu.salt');
+        $payu_url = config('payu.base_url');
+        $surl = route('payumoney.success');
+        $furl = route('payumoney.cancel');
 
-        $hashString = $merchant_key . '|' . $txnid . '|' . $amount . '|' . $productinfo . '|' . $firstname . '|' . $email . '|||||||||||' . $salt;
+        $amount_formatted = number_format((float) $amount, 2, '.', '');
+
+        $hashString = $merchant_key . '|' . $txnid . '|' . $amount_formatted . '|' . $productinfo . '|' . $firstname . '|' . $email . '|||||||||||' . $salt;
         $hash = strtolower(hash('sha512', $hashString));
 
         return view('frontend.payumoney.pay', compact(
-            'merchant_key', 'txnid', 'amount', 'productinfo', 'firstname', 'email', 'phone', 'hash', 'payu_url', 'combined_order'
+            'merchant_key', 'txnid', 'amount', 'amount_formatted', 'productinfo', 'firstname', 'email', 'phone', 'hash', 'payu_url', 'surl', 'furl', 'combined_order'
         ));
     }
 
@@ -44,9 +48,9 @@ class PayumoneyController extends Controller
         $email = $request->email;
         $payu_hash = $request->hash;
 
-        $salt = env('PAYU_SALT');
+        $salt = config('payu.salt');
 
-        $reverseHashString = $salt . '|' . $status . '|||||||||||' . $email . '|' . $firstname . '|' . $productinfo . '|' . $amount . '|' . $txnid . '|' . env('PAYU_MERCHANT_KEY');
+        $reverseHashString = $salt . '|' . $status . '|||||||||||' . $email . '|' . $firstname . '|' . $productinfo . '|' . $amount . '|' . $txnid . '|' . config('payu.merchant_key');
         $reverseHash = strtolower(hash('sha512', $reverseHashString));
 
         if ($reverseHash === $payu_hash && $status === 'success') {
