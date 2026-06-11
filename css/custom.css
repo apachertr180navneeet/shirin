@@ -1,0 +1,94 @@
+.gallery-section-three {
+    position: relative;
+    padding: 60px 0px 70px;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.sec-title {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.gallery-block-three .inner-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.company-section {
+    position: relative;
+    padding: 50px 0px;
+}
+
+.blog-page-section {
+    position: relative;
+    padding: 100px 0px 100px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.news-block {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.fa {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.gallery-block-three .inner-box .overlay-inner .link .icon {
+    position: relative;
+}
+
+.fa-search:before {
+    content: "\f002";
+}
+
+.news-block .inner-box {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.news-block .inner-box .image {
+    position: relative;
+}
+
+.news-block .inner-box .image .category {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    background-color: #950b0f;
+    border-radius: 5px;
+}
+
+.news-block .inner-box .image .category li a {
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+}
